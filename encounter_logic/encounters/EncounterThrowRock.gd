@@ -8,9 +8,9 @@ var forced_choice
 func _init(encounter_handler, encounter_screen).(encounter_handler, encounter_screen):
 	button_list = ["Accept."]
 	legal_encounters = [
-		Encounters.ThrowRock,
 		Encounters.Rock,
-		Encounters.Goblins
+		Encounters.Goblins,
+		Encounters.ReturnToGame
 	]
 	roll_outcome = randf()
 	if(roll_outcome < 0.3):
