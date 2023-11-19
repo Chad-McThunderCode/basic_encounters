@@ -9,7 +9,7 @@ var encounter_handler
 var encounter_screen
 
 enum Encounters{
-	ReturnToGame
+	ReturnToGame,
 	Rock,
 	KickRock,
 	ThrowRock,

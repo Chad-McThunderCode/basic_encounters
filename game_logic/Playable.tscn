@@ -8,8 +8,8 @@
 pause_mode = 1
 
 [node name="Background" type="TextureRect" parent="."]
-margin_right = 1022.0
-margin_bottom = 598.0
+margin_right = 1024.0
+margin_bottom = 768.0
 texture = ExtResource( 2 )
 stretch_mode = 2
 
